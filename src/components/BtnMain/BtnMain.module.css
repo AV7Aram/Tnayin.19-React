@@ -1,0 +1,15 @@
+.butMain {
+    background-color: #f3b01b;
+    border: 1px solid #f3b01b;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    color: #fff;
+    padding: 7px 35px;
+    display: inline-block;
+    transition: all .4s;
+
+    &:hover {
+        background-color: #fff;
+        color: #000;
+    }
+}

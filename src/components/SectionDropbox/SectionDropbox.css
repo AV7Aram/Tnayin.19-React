@@ -1,0 +1,125 @@
+section {
+    padding: 80px 0;
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 80px;
+
+        h1,
+        h2 {
+            font-size: 30px;
+            font-weight: 200;
+            margin-bottom: 10px;
+            line-height: 32px;
+
+            span {
+                font-weight: 700;
+            }
+        }
+
+        p {
+            line-height: 24px;
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        p:after {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 2px;
+            border-radius: 4px;
+            background-color: #f3b01b;
+            margin: 18px auto 0;
+        }
+    }
+}
+
+/* *************************************** */
+section .section-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 80px;
+
+    .section-info {
+        flex-grow: 1;
+
+        p {
+            line-height: 25px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+
+            .dropbox {
+                background-color: #fff;
+                box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.05);
+                border-radius: 27px;
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 200;
+                display: flex;
+                flex-direction: column;
+
+                .dropbox-head {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    text-align: left;
+                    cursor: pointer;
+                    padding: 15px 25px;
+
+                    div {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        span {
+                            font-weight: 900;
+                        }
+
+                        i {
+                            margin-right: 15px;
+                            color: #f3b01b;
+                            font-size: 1.5em;
+                        }
+                    }
+
+                    i {
+                        background: #fbfbfb;
+                        width: 24px;
+                        height: 24px;
+                        font-size: 16px;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transition: all .4s;
+                    }
+                }
+            }
+
+            .dropbox.active .dropbox-head>i {
+                transform: rotateX(180deg);
+            }
+
+            .dropbox-collapse {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.4s ease-in-out;
+                padding: 0 25px;
+            }
+        }
+    }
+
+    .section-image {
+        width: 450px;
+    }
+}
+
+.activeI {
+    transform: rotate(-180deg);
+}

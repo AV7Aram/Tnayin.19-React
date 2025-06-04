@@ -1,0 +1,14 @@
+.socialLinks {
+    display: flex;
+    column-gap: 15px;
+    transform: translateY(90px);
+    a {
+        display: block;
+        border: 1px solid #333;
+        border-radius: 6px;
+        font-size: 20px;
+        min-width: 36px;
+        text-align: center;
+        color: #000;
+    }
+}

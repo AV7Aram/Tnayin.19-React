@@ -1,0 +1,13 @@
+.btnAct {
+    display: inline-block;
+    padding: 0 17px;
+    border: 1px solid #767676;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: all .4s;
+    &:hover{
+        border: 1px solid #f3b01b;
+        background-color: #f3b01b;
+        color: #fff;
+    }
+}
