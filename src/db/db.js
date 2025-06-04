@@ -81,3 +81,28 @@ export const advantages = [
         description: "Դասընթացի ավարտին լավագույն արդյունք ցուցաբերած ուսանողներին կաջակցենք աշխատանքի ընդունման հարցում:"
     }
 ]
+
+export const links = ['Դասընթացներ', 'Առավելություններ', 'Թրեյներներ', 'Մեր մասին', 'Աշխատանք']
+
+export const contacts = [
+    {
+        icon: 'fa fa-phone',
+        data: ' +374 41 435344'
+    },
+    {
+        icon: 'fa fa-phone',
+        data: ' +374 98 435341'
+    },
+    {
+        icon: 'fa fa-envelope',
+        data: ' support@smartcode.am'
+    },
+    {
+        icon: 'fa fa-envelope',
+        data: ' hr@smartcode.am'
+    },
+    {
+        icon: 'fa fa-map-marker',
+        data: ' Հանրապետության 22'
+    },
+]
