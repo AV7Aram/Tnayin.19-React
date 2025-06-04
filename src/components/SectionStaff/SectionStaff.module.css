@@ -1,33 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "dejavu-sans", sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul,
-ol {
-    list-style: none;
-}
-
-img {
-    max-width: 100%;
-}
-
-.container {
-    max-width: 1180px;
-    margin: 0 auto;
-    padding: 0 17px;
-}
-
-/* *********************************** */
-
 .bgSilver {
     background: #fbfbfb;
+    height: 80vh;
 }
 
 .sectionTitle {

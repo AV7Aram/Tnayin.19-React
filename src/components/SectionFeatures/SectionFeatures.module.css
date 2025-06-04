@@ -27,11 +27,11 @@ img {
 /* ************************************* */
 
 .features {
-    padding: 80px 0;
+    padding: 100px 0;
 
     .sectionTitle {
         text-align: center;
-        margin-bottom: 80px;
+        /* margin-bottom: 80px; */
 
         h1,
         h2 {

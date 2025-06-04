@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import SectionDropbox from '../SectionDropbox/SectionDropbox'
 import BtnMain from '../BtnMain/BtnMain'
 import style from './SectionFeatures.module.css'
 
-const SectionFeatures = ({ advantages }) => {
+const SectionFeatures = forwardRef(({ advantages }, ref) => {
     return (
-        <section className={style.features}>
+        <section ref={ref} className={style.features}>
             <div className={style.container}>
                 <div className={style.sectionTitle}>
                     <h2>Ինչո՞ւ սովորել <span>մեզ մոտ</span></h2>
@@ -18,6 +18,6 @@ const SectionFeatures = ({ advantages }) => {
             </div>
         </section>
     )
-}
+})
 
 export default SectionFeatures

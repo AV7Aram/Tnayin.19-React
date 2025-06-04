@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import SectionBox from '../SectionBox/SectionBox'
 import style from './SectionCourses.module.css'
 
-const SectionCourses = ({ courses }) => {
+const SectionCourses = forwardRef(({ courses }, ref) => {
     return (
-        <section className={style.bgSilver}>
+        <section ref={ref} className={style.bgSilver}>
             <div className={style.container}>
                 <div className={[style.sectionTitle, style.left].join(' ')}>
                     <h2>
@@ -19,6 +19,6 @@ const SectionCourses = ({ courses }) => {
             </div>
         </section>
     )
-}
+})
 
 export default SectionCourses
